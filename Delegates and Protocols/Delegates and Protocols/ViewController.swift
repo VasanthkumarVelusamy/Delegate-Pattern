@@ -15,6 +15,7 @@ class ViewController: UIViewController, DataEnteredDelegate {
         super.viewDidLoad()
     }
     
+    // Data set to dataLabel when the user enters information.
     func userDidEnterInformation(info: String) {
         dataLabel.text = info
     }
